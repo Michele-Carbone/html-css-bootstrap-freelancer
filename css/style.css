@@ -1,4 +1,43 @@
 header{
     height: 80px;
-    background-color: blue;
+    background-color: rgb(255, 0, 34);
+}
+
+.header-menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-menu a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#jumbotron{
+    background-color: aqua;
+    height: 300px;
+
+}
+
+#jumbotron .row{
+    
+}
+
+#portfolio{
+    height: 300px;
+    border: 2px dashed black;
+}
+
+#portfolio div{
+    border: 1px dashed blue;
+}
+#about{
+    background-color: aqua;
+    height: 300px;
+}
+
+#contact{
+    height: 300px;
 }
