@@ -1,3 +1,43 @@
+.container{
+    border: 2px dashed gray;
+}
+
+.container-fluid{
+    border: 2px dashed blue;
+}
+
+section{
+    min-height: 80px;
+}
+
+[class^='col'] {
+    border: 2px solid orange;
+    min-height: 50px;
+}
+
+
+/*jumbotron*/
+#jumbotron{
+    background-color: royalblue;
+}
+
+#jumbotron img{
+    width: 10%;
+}
+
+#jumbotron .star div{
+    display: inline-block;
+    border: 1px solid white;
+    height: 1;
+    width: 150px;
+    vertical-align: text-top;    
+}
+
+#jumbotron .star i{
+    font-size: 40px;
+}
+
+/*
 header{
     height: 80px;
     background-color: rgb(255, 0, 34);
@@ -41,3 +81,5 @@ header{
 #contact{
     height: 300px;
 }
+
+*/
